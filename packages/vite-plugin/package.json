@@ -54,6 +54,7 @@
   ],
   "scripts": {
     "release": "bumpp",
+    "prepare": "pnpm -v",
     "prepack": "pnpm run build",
     "format": "prettier -w -c ../../.prettierrc.yaml",
     "build": "run-s build:clean build:js",
